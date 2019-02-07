@@ -10,12 +10,12 @@ def main():
         "report line 3"
     ]
 
-    html_report = HtmlReport(title, text)
-    html_report.display()
-    print()
-
     plane_report = PlaneTextReport(title, text)
     plane_report.display()
+    print()
+
+    html_report = HtmlReport(title, text)
+    html_report.display()
     print()
 
 
